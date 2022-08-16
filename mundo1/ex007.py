@@ -1,0 +1,6 @@
+# DESENVOLVA UM PROGRAMA QUE LEIA AS DUAS NOTAS DE UM ALUNO, CALCULE E MOSTRE A SUA MÉDIA
+
+nota1 = float(input("DIGITE A PRIMEIRA NOTA: "))
+nota2 = float(input("DIGITE A SEGUNDA NOTA: "))
+
+print(f"A MÉDIA É {(nota1 + nota2) / 2}")
