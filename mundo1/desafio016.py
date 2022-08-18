@@ -1,0 +1,7 @@
+# CRIE UM PROGRAMA QUE LEIA UM NÚMERO REAL QUALQUER PELO TECLADO E MOSTRE A SUA PORÇÃO INTEIRA
+
+from math import trunc
+
+num = float(input("DIGITE UM NÚMERO REAL: "))
+
+print(f"A PARTE INTEIRA DO NÚMERO É {trunc(num)}")
